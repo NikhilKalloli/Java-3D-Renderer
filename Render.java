@@ -9,6 +9,10 @@ public class Render {
         JFrame frame = new JFrame();
         Container pane = frame.getContentPane();
         pane.setLayout(new BorderLayout());
+        
+        frame.setTitle("3D Demo Viewer");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
 
         JSlider headingSlider = new JSlider(0, 360, 180);
         pane.add(headingSlider, BorderLayout.SOUTH);
@@ -23,7 +27,6 @@ public class Render {
                     g2.setColor(Color.BLACK);
                     g2.fillRect(0, 0, getWidth(), getHeight());
 
-                    // rendering magic will happen here
                     List<Triangle> tris = new ArrayList<>();
                     tris.add(new Triangle(new Vertex(100, 100, 100),
                                           new Vertex(-100, -100, 100),
@@ -105,7 +108,6 @@ class Triangle {
         this.color = color;
     }
 }
-
 
 class Matrix3 {
     double[] values;
