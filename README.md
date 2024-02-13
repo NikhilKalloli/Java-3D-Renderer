@@ -6,6 +6,8 @@
 
 - Initializes a `JFrame` with sliders for horizontal and vertical rotation.
 - Uses a `JPanel` (`renderPanel`) as the main rendering area.
+- The resulting window would be resembling this:  
+  
 ![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/wrapper-setup.png)
 
 ### 2. `Triangle` and `Vertex` Classes
@@ -17,8 +19,10 @@
 
 - Represents a 3x3 matrix with methods for matrix multiplication and vertex transformation.
 - We can observe the formulae for rotation matrices in the below image:   
+  
 ![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/rotation.png)
 - At this point wireframe of our shape is completed and it looks like this:  
+  
 ![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/skeleton.png)
 #### both rotations work and combine together nicely
 
@@ -45,6 +49,7 @@
 
 - Initializes the JFrame, sets its size, and makes it visible.
 - And the final result is :  
+  
 ![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/final.png)
 
 
