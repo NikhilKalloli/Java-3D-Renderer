@@ -16,6 +16,12 @@
 ### 3. `Matrix3` Class
 
 - Represents a 3x3 matrix with methods for matrix multiplication and vertex transformation.
+- We can observe the formulae for rotation matrices in the below image:
+![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/rotation.png)
+- At this point wireframe of our shape is completed and it looks like this(both rotations work and combine together nicely):
+![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/skeleton.png)
+
+
 
 ### 4. `Render` Class
 
@@ -38,3 +44,7 @@
 ### 7. Main Method
 
 - Initializes the JFrame, sets its size, and makes it visible.
+- And the final result is :
+![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/final.png)
+
+
