@@ -38,8 +38,8 @@
 - The rendering panel uses a z-buffer for depth calculations, enhancing the visual quality of the 3D object.
 
 ### 5. Shading Effect
-- Shading is applied to colored triangles based on the angle of incidence`(angleCos)`
-- Defines `getShade` method for shading colors based on a given shade factor.
+- Shading is applied to colored triangles based on the angle of incidence`(angleCos)` of light source and normal direction.
+- Defining `getShade` method for shading colors based on a given shade factor.
     
     ![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/frame5.png)
 
