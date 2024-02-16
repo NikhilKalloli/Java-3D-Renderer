@@ -36,7 +36,7 @@
 
  ### 4. Z-Buffer Implementation for Hidden Surface Removal in Rendering
 - Uses a z-buffer for hidden surface removal during rendering.
-- Rendering complex scenes with multiple overlapping objects, ensuring correct occlusion of distant objects by closer ones.
+- The rendering panel uses a z-buffer for depth calculations, enhancing the visual quality of the 3D scene.
 - Providing a seamless and immersive user experience by eliminating the need for manual sorting of geometry based on depth.
 
 
