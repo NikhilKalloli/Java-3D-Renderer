@@ -34,35 +34,34 @@
          
 ![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/frame3.png)
 
- ### 4. Z-Buffer Implementation for Hidden Surface Removal in Rendering
+ ### 4. `Z-Buffer` Implementation 
 - Uses a z-buffer for hidden surface removal during rendering.
 - The rendering panel uses a z-buffer for depth calculations, enhancing the visual quality of the 3D scene.
-- Providing a seamless and immersive user experience by eliminating the need for manual sorting of geometry based on depth.
 
-
-### 5. `Render` Class
-
-- Initializes GUI components and rendering panel.
+### 5. Shading
+- Shading is applied to colored triangles based on the angle of incidence`(angleCos)`
 - Defines `getShade` method for shading colors based on a given shade factor.
-- Implements `inflate` method to subdivide triangles, adding detail to the scene.
-- Handles the rendering logic, including rotation transformations and hidden surface removal.
+    
+![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/frame5.png)
 
-### 5.Recap
+
+
+
+### 6. Final 
+- Implements `inflate` method to subdivide triangles, adding detail to the scene.
+- The final result is a dynamic 3D rendering of a sphere that responds to user-controlled rotations.
+
+![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/frame6.png)
+
+
+
+### 7.Recap
 
 - Populates a list of triangles with initial vertices and colors.
 - Applies rotation transformations based on slider values.
 - Uses a z-buffer for hidden surface removal during rendering.
 - Paints each pixel in the rendering panel based on transformed vertices and shading.
 
-### 6. Listeners
 
-- Adds change listeners to sliders to trigger panel repaints when slider values change.
-
-### 7. Main Method
-
-- Initializes the JFrame, sets its size, and makes it visible.
-- And the final result is :  
-  
-![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/final.png)
 
 
