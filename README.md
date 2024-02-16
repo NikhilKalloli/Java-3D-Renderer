@@ -34,7 +34,13 @@
          
 ![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/frame3.png)
 
-### 4. `Render` Class
+ ### 4. Z-Buffer Implementation for Hidden Surface Removal in Rendering
+- Uses a z-buffer for hidden surface removal during rendering.
+- Rendering complex scenes with multiple overlapping objects, ensuring correct occlusion of distant objects by closer ones.
+- Providing a seamless and immersive user experience by eliminating the need for manual sorting of geometry based on depth.
+
+
+### 5. `Render` Class
 
 - Initializes GUI components and rendering panel.
 - Defines `getShade` method for shading colors based on a given shade factor.
