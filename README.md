@@ -31,6 +31,7 @@
 - Initializes GUI components and rendering panel.
 - The central panel renders colored triangles in 3D space using BufferedImage for improved performance.
 - Triangles are transformed based on the combined horizontal and vertical rotation from sliders.
+         
 ![](https://github.com/NikhilKalloli/Java-3D-Renderer/blob/main/assets/frame3.png)
 
 ### 4. `Render` Class
