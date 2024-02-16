@@ -130,6 +130,7 @@ public class Frame6 {
         pitchSlider.addChangeListener(e -> renderPanel.repaint());
 
         frame.setSize(400, 400);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
 
